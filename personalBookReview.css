@@ -26,7 +26,7 @@ h2 {
 h3 {
     font-family: "Nunito";
     font-size: 200%;
-    color: #0A2342;
+    color: #041b38;
 }
 
 p {
@@ -73,7 +73,9 @@ header {
     height: 100vh;
     padding-top: 10%;
 }
-
+header h3{
+    color:#FFC300;
+}
 .special-quote,
 div,
 main {
@@ -116,11 +118,12 @@ main {
 
 audio {
     float: right;
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-right:2%;
 }
 
 .impo-word {
-    color: #0A2342;
+    color:#FFC300;
     transition: 0.3s color ease;
 }
 
@@ -209,7 +212,20 @@ footer {
 footer i {
     margin-left: 10px;
 }
-
+footer button{
+    border-radius: 30px;
+    padding:0.5% 2%;
+    font-size: 15px;
+    background-color:#800000;
+    color:white;
+    cursor: pointer;
+    margin-bottom: 1%;
+    font-weight: bolder;
+    border:none;
+}
+footer h3{
+    color:white;
+}
 @media only screen and (max-width:750px) {
 
     h1 {
@@ -277,6 +293,7 @@ footer i {
     .special-quote {
         font-family: "Dancing Script";
         text-align: center;
+       
         padding: 1%;
         font-size: 100%;
         margin: 20% 0;
@@ -300,7 +317,7 @@ footer i {
     }
 
     .impo-word {
-        color: #0A2342;
+        color:#FFC300;
         transition: 0.3s color ease;
     }
 
@@ -387,6 +404,10 @@ footer i {
 
     footer i {
         margin-left: 10px;
+    }
+    footer button{
+        font-size: 10px;
+        font-weight: normal;
     }
 }
 
@@ -567,5 +588,9 @@ footer i {
 
     footer i {
         margin-left: 10px;
+    }
+    footer button{
+        font-size: 15px;
+        padding:2% 5%;
     }
 }
